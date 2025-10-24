@@ -1,3 +1,3 @@
 venv/
-.env/
-__pacache__/
+.env
+__pycache__/
