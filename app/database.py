@@ -16,7 +16,7 @@ class Base(DeclarativeBase):
 #Созадю движок
 engine=create_async_engine(
     DATABASE_URL,
-    echo=True, #Отключю в продакшине
+    echo=False, #Отключю в продакшине
 
     #Задаю пулы соединений
     pool_size=20, #Постоянные соединения
